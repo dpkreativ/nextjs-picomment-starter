@@ -11,7 +11,7 @@ export default function Caption({ title }) {
   function handleClick() {
     if (userLike) {
       setUserLike(false);
-      setLikeCount(likeCount + 1);
+      setLikeCount(likeCount - 1);
     } else {
       setUserLike(true);
       setLikeCount(likeCount + 1);
